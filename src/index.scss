@@ -66,6 +66,8 @@ code.hljs {
     }
     .dropdown-item,
     .navbar .navbar-brand,
+    .navbar .navbar-brand:hover,
+    .navbar .navbar-brand:focus,
     .navbar-nav .nav-item > .nav-link {
         color: var(--dark-text-color);
     }

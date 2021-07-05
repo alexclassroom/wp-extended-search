@@ -25,7 +25,7 @@ fs.readFile('./src/data/data.json', 'utf-8', (err, data) => {
                 "__page_desc__": pageMeta.desc
             };
             const fileContentReplaced = fileContent.replace(/\b(?:__page_title__|__page_desc__)\b/gi, matched => mapObj[matched]);
-            const fileSlug = pageName.toLocaleLowerCase() === 'home' ? 'index' : pageName.toLocaleLowerCase();
+            const fileSlug = pageName.toLowerCase() === 'home' ? 'index' : pageName.toLowerCase();
             console.log(`Writing ${fileSlug}.html`)
             fs.writeFileSync(`./build/${fileSlug}.html`, fileContentReplaced);
         })

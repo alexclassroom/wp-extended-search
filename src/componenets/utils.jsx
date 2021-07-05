@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export const GoogleAd = ({ slot, format = 'auto', responsive = 'true' }) => {
 
     useEffect(() => {
-        // (window.adsbygoogle = window.adsbygoogle || []).push({});
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
     });
 
     return (
