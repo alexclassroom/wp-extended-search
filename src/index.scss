@@ -1,0 +1,77 @@
+/* Customization for our theme */
+$primary: #3aafa9;
+$dark: #3aafa9;
+$navbar-padding-x: 0.3rem;
+
+/* Colors variable for dark mode */
+:root {
+    --dark-bg-color: #27241d;
+    --dark-text-color: #d3cec4;
+    --dark-card-bg: #504a40;
+}
+
+/* bootstrap CSS */
+@import "~bootstrap/scss/bootstrap";
+
+/* Custom CSS */
+#wpes-sidebar-links {
+    max-height: 100vh;
+    overflow-y: auto;
+    z-index: 1021;
+}
+a.text-white:hover, 
+a.text-white:focus { 
+    text-decoration: underline; 
+}
+code.hljs { 
+    padding: 0.5rem 2rem; 
+    display: block;
+    overflow-x: auto; }
+.wpes-custom-ad .figure-caption {
+    max-width: 260px;
+}
+
+/* Dark mode CSS */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-bg-color);
+        color: var(--dark-text-color);
+    }
+    .bg-dark {
+        background-color: var(--dark-card-bg) !important;
+    }
+    .bg-light {
+        background-color: transparent !important;
+        border-bottom: 1px solid var(--dark-card-bg);
+    }
+    .text-white {
+        color: var(--dark-text-color) !important;
+    }
+    .navbar-nav .nav-item > .nav-link.active,
+    .navbar-nav .nav-item > .nav-link:hover,
+    .navbar-nav .nav-item > .nav-link:focus {
+        color: $primary;
+    }
+    .navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar .navbar-toggler {
+        color: var(--dark-text-color);
+        border-color: var(--dark-text-color);
+    }
+    .dropdown-menu,
+    .list-group-item {
+        background-color: var(--dark-card-bg);
+        color: var(--dark-text-color);
+    }
+    .dropdown-item,
+    .navbar .navbar-brand,
+    .navbar-nav .nav-item > .nav-link {
+        color: var(--dark-text-color);
+    }
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        background-color: $primary;
+        color: var(--white);
+    }
+}

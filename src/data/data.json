@@ -1,0 +1,43 @@
+{
+    "siteInfo": {
+        "title": "WP Extended Search",
+        "titleSeparator": "|"
+    },
+    "pages": {
+        "Home" : {
+            "slug": "/",
+            "pageTitle": "Getting Started",
+            "desc": "Getting started with WP Extended Search."
+        },
+        "Hooks": {
+            "slug": "/hooks",
+            "pageTitle": "Hooks",
+            "desc": "List of Actions and Filters to extend or modify the WP Extended Search functionality."
+        }
+    },
+    "footerLinks": [
+        {
+            "title": "Download",
+            "href": "https://wordpress.org/plugins/wp-extended-search/",
+            "rel": "nofollow"
+        },
+        {
+            "title": "Support",
+            "href": "https://wordpress.org/support/plugin/wp-extended-search/",
+            "rel": "nofollow"
+        },
+        {
+            "title": "GitHub",
+            "href": "https://github.com/5um17/wp-extended-search/",
+            "rel": "nofollow"
+        },
+        {
+            "title": "Blog",
+            "href": "https://www.secretsofgeeks.com/2014/09/wordpress-search-tags-and-categories.html"
+        },
+        {
+            "title": "Contact",
+            "href": "https://www.secretsofgeeks.com/p/contact.html"
+        }
+    ]
+}
