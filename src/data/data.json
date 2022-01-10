@@ -9,6 +9,11 @@
             "pageTitle": "Getting Started",
             "desc": "Getting started with WP Extended Search."
         },
+        "Settings": {
+            "slug": "/settings",
+            "pageTitle": "Settings",
+            "desc": "Configure WP Extended Search options."
+        },
         "Hooks": {
             "slug": "/hooks",
             "pageTitle": "Hooks",

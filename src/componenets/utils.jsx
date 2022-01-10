@@ -1,9 +1,12 @@
 import { useEffect } from 'react';
 
 export const GoogleAd = ({ slot, format = 'auto', responsive = 'true' }) => {
+    let display_ads = (process.env.NODE_ENV === 'production');
 
     useEffect(() => {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        if (display_ads) {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
     });
 
     return (

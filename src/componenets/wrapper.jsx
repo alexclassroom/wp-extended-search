@@ -1,7 +1,8 @@
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Header from './header';
 import * as home from '../pages/Home';
 import * as hooks from '../pages/Hooks';
+import * as settings from '../pages/Settings';
 import Sidebar from './sidebar';
 import data from '../data/data.json';
 
@@ -9,6 +10,10 @@ const wrapper = props => {
     let currentPage = false;
 
     switch (props.id) {
+        case 'Settings':
+            currentPage = settings;
+            break;
+
         case 'Hooks':
             currentPage = hooks;
             break;

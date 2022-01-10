@@ -8,7 +8,7 @@ export const content = () => (
         <h3 id="install">Installation:</h3>
         <p>Install WP Extended Search from the 'Plugins' section in your dashboard (Plugins &gt; Add New &gt; Search for 'WP Extended Search').</p>
         <p>Or</p>
-        <p>Download WP Extended Search from <a href="https://wordpress.org/plugins/wp-extended-search/" rel="nofollow">here</a> and upload it to your webserver via your FTP application. The WordPress codex contains <a href="https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation" rel="nofollow">instructions on how to do this here</a>.</p>
+        <p>Download WP Extended Search from <a href="https://wordpress.org/plugins/wp-extended-search/" rel="nofollow">here</a> and upload it to your webserver via your FTP application. The WordPress codex contains <a href="https://wordpress.org/support/article/managing-plugins/#installing-plugins" rel="nofollow">instructions on how to do this here</a>.</p>
         <p>Activate the plugin and navigate to (Settings &gt; Extended Search) to choose your desired search settings.</p>
 
         <h3 id="notes">Note:</h3>
