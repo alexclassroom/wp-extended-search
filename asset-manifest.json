@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb8df476.chunk.css",
-    "main.js": "/static/js/main.6e1a2601.chunk.js",
-    "main.js.map": "/static/js/main.6e1a2601.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.23220b79.js",
-    "runtime-main.js.map": "/static/js/runtime-main.23220b79.js.map",
-    "static/css/2.4cface7d.chunk.css": "/static/css/2.4cface7d.chunk.css",
-    "static/js/2.74435ab4.chunk.js": "/static/js/2.74435ab4.chunk.js",
-    "static/js/2.74435ab4.chunk.js.map": "/static/js/2.74435ab4.chunk.js.map",
+    "main.css": "/static/css/main.990728a8.chunk.css",
+    "main.js": "/static/js/main.96b238df.chunk.js",
+    "main.js.map": "/static/js/main.96b238df.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33751b0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33751b0b.js.map",
+    "static/css/2.a5d27c12.chunk.css": "/static/css/2.a5d27c12.chunk.css",
+    "static/js/2.eb028be6.chunk.js": "/static/js/2.eb028be6.chunk.js",
+    "static/js/2.eb028be6.chunk.js.map": "/static/js/2.eb028be6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.4cface7d.chunk.css.map": "/static/css/2.4cface7d.chunk.css.map",
-    "static/css/main.fb8df476.chunk.css.map": "/static/css/main.fb8df476.chunk.css.map",
-    "static/js/2.74435ab4.chunk.js.LICENSE.txt": "/static/js/2.74435ab4.chunk.js.LICENSE.txt",
-    "static/media/wp-easy-login.caef626c.jpg": "/static/media/wp-easy-login.caef626c.jpg"
+    "static/css/2.a5d27c12.chunk.css.map": "/static/css/2.a5d27c12.chunk.css.map",
+    "static/css/main.990728a8.chunk.css.map": "/static/css/main.990728a8.chunk.css.map",
+    "static/js/2.eb028be6.chunk.js.LICENSE.txt": "/static/js/2.eb028be6.chunk.js.LICENSE.txt",
+    "static/media/configure-search-setting.8ead9efd.jpg": "/static/media/configure-search-setting.8ead9efd.jpg",
+    "static/media/disable-wpes-global-settings.85a8b7dc.jpg": "/static/media/disable-wpes-global-settings.85a8b7dc.jpg",
+    "static/media/setting-edit-screen.1513b32b.jpg": "/static/media/setting-edit-screen.1513b32b.jpg",
+    "static/media/wp-easy-login.caef626c.jpg": "/static/media/wp-easy-login.caef626c.jpg",
+    "static/media/wpes-searchform-php.7b5c9d8b.jpg": "/static/media/wpes-searchform-php.7b5c9d8b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.23220b79.js",
-    "static/css/2.4cface7d.chunk.css",
-    "static/js/2.74435ab4.chunk.js",
-    "static/css/main.fb8df476.chunk.css",
-    "static/js/main.6e1a2601.chunk.js"
+    "static/js/runtime-main.33751b0b.js",
+    "static/css/2.a5d27c12.chunk.css",
+    "static/js/2.eb028be6.chunk.js",
+    "static/css/main.990728a8.chunk.css",
+    "static/js/main.96b238df.chunk.js"
   ]
 }
